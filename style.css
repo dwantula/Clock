@@ -1,5 +1,5 @@
 .page {
-  background-color: lightblue;
+  background-color: gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,12 +9,22 @@
   width:500px;
   height: 500px;
   border-radius: 50%;
-  background-color: lightblue;
-  border: 30px solid white;
+  background-color: floralwhite;
+  border: 40px solid white;
   position: relative ;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.center-circle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  margin: 244px auto;
+
 }
 
 .center {
@@ -27,7 +37,7 @@
   background: #000;
   width: 25%;
   left: 25% ;
-  height: 1%;
+  height: 2%;
   top: 50%;
   position: absolute;
   transform: rotate(90deg);
@@ -35,10 +45,10 @@
 } 
 
 .minutes-hand {
-  background: blue;
+  background: black;
   width: 40%;
   left:10% ;
-  height: 1%;
+  height: 1.5%;
   top: 50%;
   position: absolute;
   transform: rotate(120deg);
@@ -46,7 +56,7 @@
 }
 
 .seconds-hand {
-  background: red;;
+  background: black;
   height: 1%;
   position: absolute;
   width: 45%;
